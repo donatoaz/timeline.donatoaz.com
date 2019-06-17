@@ -1,0 +1,16 @@
+{
+  "name": "donatoaz.com",
+  "version": "1.0.0",
+  "description": "blog deployer",
+  "main": "deploy.js",
+  "scripts": {
+    "build": "hugo",
+    "deploy": "node deploy.js",
+    "deploy:prod": "DEPLOY_ENV=PRODUCTION node deploy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "s3": "^4.4.0"
+  }
+}
