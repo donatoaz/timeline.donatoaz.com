@@ -40,4 +40,4 @@ jobs:
       - deploy:
           name: deploy to AWS
           command: |
-            aws s3 sync $HUGO_BUILD_DIR s3://timeline.donatoaz.com/ --delete
+            aws s3 sync $HUGO_BUILD_DIR s3://timeline.donato.works/ --delete

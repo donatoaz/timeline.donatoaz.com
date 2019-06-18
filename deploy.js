@@ -16,8 +16,8 @@ const client = s3.createClient({
 const bucket =
   process.env.BUCKET_NAME ||
   {
-    STAGING: 'dev-timeline.donatoaz.com',
-    PRODUCTION: 'timeline.donatoaz.com',
+    STAGING: 'dev-timeline.donato.works',
+    PRODUCTION: 'timeline.donato.works',
   }[process.env.DEPLOY_ENV || 'STAGING']
 
 const params = {

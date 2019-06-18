@@ -1,4 +1,4 @@
-baseURL = "http://timeline.donatoaz.com/"
+baseURL = "http://timeline.donato.works/"
 languageCode = "pt-BR"
 title = "donatoaz Timeline"
 theme = "timeline"
